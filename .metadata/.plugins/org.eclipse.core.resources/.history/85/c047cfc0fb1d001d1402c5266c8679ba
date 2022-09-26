@@ -1,0 +1,18 @@
+package chap09_interface;
+
+public class onDisplay implements DisplayInterface {
+
+	@Override
+	public void offDisplay() {
+		// TODO Auto-generated method stub
+			public void onDisplay () {
+		System.out.println("tv를 켭니다");
+			}
+	}
+
+	@Override
+	public void onDisplay() {
+		// TODO Auto-generated method stub
+		
+	}
+}

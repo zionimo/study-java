@@ -1,0 +1,9 @@
+package chap09_interface;
+
+public interface DisplayInterface {
+	final int NUMBER = 0;
+	
+	public void onDisplay();
+	public void offDisplay();
+		
+}

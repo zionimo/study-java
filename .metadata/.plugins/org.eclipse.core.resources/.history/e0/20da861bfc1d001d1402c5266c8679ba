@@ -1,0 +1,14 @@
+package chap09_interface;
+
+public class DisplayTv {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		onDisplay on = new onDisplay();
+		offDisplay off = new offDisplay();
+		
+		on.onDisplay();
+		off.offDisplay();
+	}
+
+}

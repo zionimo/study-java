@@ -1,0 +1,70 @@
+package practice05;
+
+import java.util.Scanner;
+
+public class Test0819 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//if-else문
+		//90 이상은 장학금, 60 이상은 합격, 60 미만은 재시험으로 출력하세요
+		int score = 0;
+		if (score > 90) {
+			System.out.println("장학금");
+		} else if (score >= 60 ) {
+			System.out.println("합격");
+		} else {
+			System.out.println("재시험");
+		}
+		
+		
+		//for문
+		//(int)(Math.random()*100) 을 이용해서 더하기 문제를 5번 제출하세요
+		Scanner input = new Scanner(System.in);
+		int sum = 0;
+		int count = 0;
+		
+		while (true) {
+			System.out.print("0을 입력하면 모든 수의 합과 평균을 출력합니다 ");
+			int num = input.nextInt();
+			sum += num;
+			if (num ==0) {
+				break;
+			}
+			count++;  //num이 0일 때, 그 값을 더하지 않기 위함
+		}
+		System.out.println("합 : " + sum + "  평균 : " + sum/count);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

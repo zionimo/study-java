@@ -1,0 +1,44 @@
+package practice05;
+
+import java.util.Scanner;
+
+public class Test0819 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		
+		
+		
+		Scanner input = new Scanner(System.in);
+
+		
+		
+		
+		
+		
+		String[] fruits = { "망고", "복숭아", "자두", "포도", "사과" }; 
+		
+		for (int i = 0; i < fruits.length; i++) {
+				System.out.println(fruits[i] + "가 있습니다.");
+		}
+		
+		
+		
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

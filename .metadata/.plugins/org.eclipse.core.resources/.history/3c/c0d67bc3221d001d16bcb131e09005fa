@@ -1,0 +1,55 @@
+package Test0816;
+
+public class BoardGame extends Game {
+	
+	//필드
+	int peopleNum;
+	
+	//생성자
+	void BoardGame() {
+		this.peopleNum = 0;
+	}
+	
+	public BoardGame(String gameTitle, int peopleNum) {
+		this.gameTitle = gameTitle;
+		this.peopleNum = peopleNum;
+	}	
+		
+	// 메소드
+	 void play() {
+		 System.out.println(peopleNum + "명이서 " + gameTitle +  " 게임을 시작합니다");
+	 }
+		
+		
+		
+		
+		
+		
+	
+	
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

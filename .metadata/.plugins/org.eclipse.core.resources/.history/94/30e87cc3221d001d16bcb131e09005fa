@@ -1,0 +1,47 @@
+package Test0816;
+
+public class GameMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//객체생성
+		Game game1 = new Game();
+		BoardGame boardGame = new BoardGame("원카드", 3);
+		
+		game1.play();
+		game1.end();
+		boardGame.play();
+		boardGame.end();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

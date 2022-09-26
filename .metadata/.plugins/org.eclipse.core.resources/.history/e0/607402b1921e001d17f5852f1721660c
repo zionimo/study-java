@@ -1,0 +1,6 @@
+package chap09_interface;
+
+public interface Car {
+	protected String color;
+	protected int speed;
+}

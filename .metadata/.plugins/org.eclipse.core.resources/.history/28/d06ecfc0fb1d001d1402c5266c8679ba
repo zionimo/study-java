@@ -1,0 +1,20 @@
+package chap09_interface;
+
+public class onDisplay implements DisplayInterface {
+
+	@Override
+	public void onDisplay() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void offDisplay() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+
+	
+}

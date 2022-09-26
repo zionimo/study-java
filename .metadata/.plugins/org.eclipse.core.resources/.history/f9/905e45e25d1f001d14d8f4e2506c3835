@@ -1,0 +1,45 @@
+package zz;
+
+import java.util.Scanner;
+
+public class df {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+	Scanner input = new Scanner(System.in);
+	int i = 0, sum = 0, count = 0;
+	
+	System.out.print("0을 입력하면 모든 수의 합과 평균을 출력합니다");
+	int num = input.nextInt();
+	
+	
+	
+	
+	
+	
+	
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

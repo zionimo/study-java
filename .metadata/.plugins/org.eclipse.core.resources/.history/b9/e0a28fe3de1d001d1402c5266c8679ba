@@ -1,0 +1,8 @@
+package chap08_abstract;
+
+public class Cat extends Mammal {
+
+	public void sound() {
+		System.out.println("야옹");
+	}
+}

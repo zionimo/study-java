@@ -1,0 +1,8 @@
+package chap09_interface;
+
+public class onDisplay implements DisplayInterface {
+
+	public void onDisplay () {
+		System.out.println("tv를 켭니다");
+	}
+}

@@ -1,0 +1,48 @@
+package chap09_interface;
+
+//interface 키워드를 통해서 인터페이스 생성ㅇ
+public interface CarInterface {
+	
+	//추상 메소드 - 추상메소드가 기본메소드
+	public void printCar();
+	
+	//블록이 있는 메소드를 사용할 떄 default 키워드 사용
+	public void move();
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

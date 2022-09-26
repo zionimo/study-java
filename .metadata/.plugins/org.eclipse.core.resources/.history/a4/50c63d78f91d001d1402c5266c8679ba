@@ -1,0 +1,8 @@
+package chap09_interface;
+
+public class offDisplay implements DisplayInterface{
+
+	publi void offDisplay() {
+		System.out.println("tv를 끕니다");
+	}
+}

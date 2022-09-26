@@ -1,0 +1,116 @@
+package Test0816;
+
+import java.util.Scanner;
+
+public class Book {
+	
+	//필드 
+	String title;
+	String author;
+	int page; 
+	boolean checkOut;
+	
+	//정적필드 
+	bookCount = 0;
+	
+	//정적메소드 
+	getBookCount() {}
+	
+	
+	//메소드 : 
+	
+	
+	//디폴드 생성자 
+	// title="미정", author=“미상”, page=0, (boolean)checkOut=false
+	public void Book() {
+		this.title = "미정";
+		this.author = "미상";
+		this.page = 0;
+		this.checkOut = false;
+	}
+	
+	
+	//매개변수가 있는 생성자 
+	protected Book(String title, String author, int page) {
+		this.title = title;
+		this.author = author;
+		this.page = page;
+		this.checkOut = false;
+	}
+	//(boolean)checkOut=false
+	
+	
+	
+	//checkOut 값이 true일 때 : 
+	//false로 값을 바꾸고, “책을 반납하였습니다” 출력
+	//false일 때 :  true로 바꾸고 “책을 대여하였습니다” 출력
+	void isCheckOut () {
+		while(true) {
+			if(checkOut == true) {
+				System.out.println("책을 반납하였습니다");
+				checkOut = false;
+			} else {
+				System.out.println("책을 대여하였습니다");
+				checkOut =  true;
+			}
+		}
+	}
+
+	
+	// checkOut이 false 일 때 "author의 title책이 현재 있습니다" 
+	//checkOut이 true 일 때 "author의 title책이 대여중입니다“
+	void printBook () {
+		while(true) {
+			if(checkOut == false) {
+				System.out.println(author + "의 책이 현재 있습니다");
+			} else { 
+				System.out.println(author + title + "책이 대여중입니다");
+			}
+		}
+	} 
+
+			
+			
+
+	//1. booklist 배열을 만들어, 그 안에 Book 객체를 만들어서 넣자.
+	String[] booklist = {}	;
+	
+	Scanner input = new Scanner(System.in);
+	input
+	
+	//기능 : 
+	//1. 전체 책 개수 확인
+	//2. 전체 책정보 출력
+	//3. 인덱스를 입력하여 책 대여/반납
+	//4. 책 추가
+	//0. 종료
+
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+}
+
+
+
+

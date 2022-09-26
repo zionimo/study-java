@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="jdk.internal.util.xml.impl.Input"/>
+    <fullyQualifiedTypeName name="javax.swing.Box"/>
+    <fullyQualifiedTypeName name="chap07_Object.Student"/>
+    <fullyQualifiedTypeName name="chap07_1_acessB.AccessB"/>
+    <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="chap07_2_getset.AnimalCard"/>
+    <fullyQualifiedTypeName name="chap08_inherit.People"/>
+    <fullyQualifiedTypeName name="Test0816.Game"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="chap09_interface.CarInterface"/>
+    <fullyQualifiedTypeName name="chap09_interface.CarOptionInterface"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+</qualifiedTypeNameHistroy>

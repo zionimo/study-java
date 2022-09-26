@@ -1,0 +1,60 @@
+package Test0816;
+
+public class Game {
+
+		//필드
+		private String gameTitle;
+		
+		//생성자
+		public Game() {
+			this.gameTitle = "미정";
+		}
+		
+		
+		//메소드
+		void getGameTitle() {
+			System.out.println(gameTitle);} 
+		void play() {
+			System.out.println(gameTitle + " 게임을 시작합니다");
+		}
+		void stop() {
+			System.out.println(gameTitle + " 게임을 멈춥니다");
+		}
+		void end() {
+			System.out.println(gameTitle + " 게임을 종료합니다");
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+
+}
